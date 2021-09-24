@@ -23,11 +23,11 @@ entry_points:
 
       min_price:
         description: Minimum price boundary for outlier removal
-        type: string
+        type: float
 
       max_price:
         description: Maximum price boundary for outlier removal
-        type: string
+        type: float
 
 
     command: >-
